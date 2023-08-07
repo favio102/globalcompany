@@ -1,6 +1,21 @@
 .alert {
   position: fixed;
-  bottom: 16px;
-  right: 16px;
+  right: 6px;
   z-index: 1000;
+}
+
+/* app/assets/stylesheets/devise_alerts.css */
+
+/* Style for the alert container */
+.devise-alert {
+  padding: 10px;
+  background-color: #f8d7da; /* Custom background color for the alert */
+  color: #721c24; /* Custom text color for the alert */
+  border: 1px solid #f5c6cb; /* Custom border color for the alert */
+}
+
+/* Optional: Add any other custom styles for the link inside the alert */
+.devise-alert a {
+  color: #721c24; /* Custom link color */
+  text-decoration: underline;
 }
