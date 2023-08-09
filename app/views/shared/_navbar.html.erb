@@ -33,19 +33,8 @@
           <li class="nav-item"><a class="nav-link" href="#support">Support</a></li>
           <%# ###########CHANGE HERE #################### %>
           <% if user_signed_in? %>
-            <li class="nav-item active">
-              <%= link_to "Home", "#", class: "nav-link" %>
-            </li>
-            <li class="nav-item">
-              <%= link_to "Messages", "#", class: "nav-link" %>
-            </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                User Actions
-              </a>
               <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                <li><%= link_to "Action", "#", class: "dropdown-item" %></li>
-                <li><%= link_to "Another action", "#", class: "dropdown-item" %></li>
                 <li><%= link_to "Log out", destroy_user_session_path, method: :delete, class: "dropdown-item" %></li>
               </ul>
             </li>
