@@ -1,5 +1,8 @@
 This is a starting point for Recognition Web App Prototype.
 
+*Feel free to contributre to this app following the instruction:
+[Contributing.md](https://github.com/favio102/globalcompany/blob/master/CONTRIBUTING.md)
+
 ## Built With
 - [Rails 7](https://guides.rubyonrails.org/) - Backend / Front-end
 - [Stimulus JS](https://stimulus.hotwired.dev/) - Front-end JS
@@ -37,3 +40,6 @@ rails server
 ./bin/dev
 ```
 - access using [http://localhost:3000](http://localhost:3000)
+
++Feel free to contributre to this app following the instruction:
+[Contributing.md](https://github.com/favio102/globalcompany/blob/master/CONTRIBUTING.md)
