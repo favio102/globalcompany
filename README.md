@@ -1,7 +1,11 @@
-This is a starting point for Recognition Web App Prototype.
+<h1>Global Company Rails App</h1>
 
+This is a starting point for Recognition Web App Prototype.
 *Feel free to contributre to this app following the instruction:
 [Contributing.md](https://github.com/favio102/globalcompany/blob/master/CONTRIBUTING.md)
+
+<img width="1278" alt="Screenshot 2023-10-07 at 9 46 39 AM" src="https://github.com/favio102/globalcompany/assets/93895982/a1d5fae5-9396-492b-88da-b44d0a083db0">
+
 
 ## Built With
 - [Rails 7](https://guides.rubyonrails.org/) - Backend / Front-end
